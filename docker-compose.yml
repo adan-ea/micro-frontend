@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+    host:
+        build: .
+        container_name: host
+        restart: unless-stopped
+        ports:
+            - 3000:3000
+    remote:
+        build: .
+        container_name: remote
+        restart: unless-stopped
+        ports:
+            - 3002:3002
