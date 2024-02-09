@@ -1,10 +1,14 @@
 import LocalButton from './Button';
+import Header from '../shared/Header';
+import Footer from '../shared/Footer';
 
 const App = () => (
   <div>
-    <h1>Basic Host-Remote</h1>
-    <h2>Remote</h2>
+    <Header />
+    <h2>Basic Host-Remote</h2>
+    <h3>Remote</h3>
     <LocalButton />
+    <Footer />
   </div>
 );
 
