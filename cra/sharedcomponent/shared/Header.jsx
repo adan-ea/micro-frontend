@@ -2,13 +2,18 @@ import React from 'react';
 
 function Header() {
     const headerStyle = {
+        position: 'fixed',
+        top: 0,
+        left: 0,
+        width: '100%',
         backgroundColor: 'black',
         color: 'white',
-        padding: '10px 20px',
+        padding: '10px 0px',
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
         fontFamily: 'Arial, sans-serif',
+        zIndex: 1000,
     };
 
     const navStyle = {

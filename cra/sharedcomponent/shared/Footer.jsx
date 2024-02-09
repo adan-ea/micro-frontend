@@ -2,9 +2,13 @@ import React from 'react';
 
 function Footer() {
     const footerStyle = {
+        position: 'fixed',
+        left: 0,
+        bottom: 0,
+        width: '100%',
         backgroundColor: 'black',
         color: 'white',
-        padding: '20px 20px',
+        padding: '10px 0px',
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
