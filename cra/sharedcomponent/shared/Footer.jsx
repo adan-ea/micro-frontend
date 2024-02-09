@@ -1,0 +1,31 @@
+import React from 'react';
+
+function Footer() {
+    const footerStyle = {
+        backgroundColor: 'black',
+        color: 'white',
+        padding: '20px 20px',
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        fontFamily: 'Arial, sans-serif',
+    };
+
+    const linkStyle = {
+        color: 'white',
+        textDecoration: 'none',
+        marginRight: '15px',
+    };
+
+    return (
+        <footer style={footerStyle}>
+            <p>© 2024 My Website. All rights reserved.</p>
+            <div>
+                <a href="/privacy" style={linkStyle}>Privacy Policy</a>
+                <a href="/terms" style={linkStyle}>Terms of Use</a>
+            </div>
+        </footer>
+    );
+}
+
+export default Footer;
